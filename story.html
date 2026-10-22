@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Our Story · My Izzie · Your RURU</title><link rel="stylesheet" href="style.css"></head><body><nav><a class="logo" href="index.html">My Izzie <span>♥</span> Your RURU</a><div class="links">
+<a href="index.html">Home</a><a href="story.html">Our Story</a><a href="promises.html">Promises</a><a href="letter.html">Letter</a><a href="forever.html">Forever</a></div></nav>
+<section class="page story"><div class="wrap">
+<div class="eyebrow">Chapter One</div><h2>The day my world changed.</h2>
+<p class="lead">24 July 2026 will always have a special place in my heart. It wasn't just the beginning of a relationship — it was the beginning of the future I started imagining with you.</p>
+<div class="timeline">
+<div class="moment"><div class="day">24 JUL<br>2026</div><div><h3>Our Beginning</h3><p>The first page of something I hope never reaches its final chapter.</p></div></div>
+<div class="moment"><div class="day">TODAY</div><div><h3>I Choose You</h3><p>Every day, through easy moments and difficult ones, my heart keeps choosing you.</p></div></div>
+<div class="moment"><div class="day">FOREVER</div><div><h3>The Life I Want</h3><p>A home, shared dreams, countless memories, growing older together — with you beside me.</p></div></div>
+</div>
+<a class="btn" href="promises.html">My Promises →</a>
+</div></section>
+<footer>MADE WITH LOVE · IZZIE ♥ RURU · 24.07.2026 · FOREVER & ALWAYS</footer>
+<script>
+function hearts(){
+ const symbols=['♥','♡','✦','❤'];
+ const h=document.createElement('div');h.className='heart';
+ h.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+ h.style.left=Math.random()*100+'vw';
+ h.style.fontSize=(12+Math.random()*25)+'px';
+ h.style.animationDuration=(5+Math.random()*7)+'s';
+ document.body.appendChild(h);setTimeout(()=>h.remove(),13000);
+}
+setInterval(hearts,650);
+for(let i=0;i<14;i++) setTimeout(hearts,i*180);
+</script></body></html>

@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Promises · My Izzie · Your RURU</title><link rel="stylesheet" href="style.css"></head><body><nav><a class="logo" href="index.html">My Izzie <span>♥</span> Your RURU</a><div class="links">
+<a href="index.html">Home</a><a href="story.html">Our Story</a><a href="promises.html">Promises</a><a href="letter.html">Letter</a><a href="forever.html">Forever</a></div></nav>
+<section class="page promise"><div class="wrap">
+<div class="eyebrow" style="color:#ffc1d3">Chapter Two</div><h2>What I promise you.</h2>
+<p class="lead">I can't promise that life will always be perfect. I can promise that I will keep showing up, keep choosing us, and keep loving you.</p>
+<div class="cards">
+<div class="card"><h3>♡ Unconditionally</h3><p>I want to love every version of you — on your happiest days and on the days when you need me most.</p></div>
+<div class="card"><h3>∞ Always</h3><p>I don't want you only for a chapter. I want you in every chapter that comes after this one.</p></div>
+<div class="card"><h3>💍 Forever</h3><p>My intention is serious: I want to build a life with you and make you my wife.</p></div>
+</div><br><a class="btn" style="background:#fff;color:#74183e" href="letter.html">My Heart →</a>
+</div></section>
+<footer>MADE WITH LOVE · IZZIE ♥ RURU · 24.07.2026 · FOREVER & ALWAYS</footer>
+<script>
+function hearts(){
+ const symbols=['♥','♡','✦','❤'];
+ const h=document.createElement('div');h.className='heart';
+ h.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+ h.style.left=Math.random()*100+'vw';
+ h.style.fontSize=(12+Math.random()*25)+'px';
+ h.style.animationDuration=(5+Math.random()*7)+'s';
+ document.body.appendChild(h);setTimeout(()=>h.remove(),13000);
+}
+setInterval(hearts,650);
+for(let i=0;i<14;i++) setTimeout(hearts,i*180);
+</script></body></html>
